@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Профіль{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Ласкаво просимо до вашого профілю, {{ current_user.username }}!</h1>
+        <p>Це ваша сторінка профілю.</p>
+    </div>
+{% endblock %}
